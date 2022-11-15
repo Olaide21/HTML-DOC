@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>exercise-grid</title>
+    <style>
+        .mother1 {
+            display: grid;
+            grid-template-columns: 150px 150px;
+        }
+        
+        .parent1 {
+            width: 150px;
+            height: 150px;
+        }
+        
+        .parent2 {
+            width: 150px;
+            height: 150px;
+            margin-left: 24px;
+        }
+        
+        .img1 {
+            width: 120px;
+            height: 120px;
+        }
+        
+        .img2 {
+            width: 75px;
+            height: 75px;
+            object-fit: cover;
+            object-position: top;
+        }
+        
+        .img3 {
+            width: 25px;
+            height: 25px;
+            object-fit: cover;
+            object-position: center;
+        }
+        
+        .img4 {
+            width: 25px;
+            height: 25px;
+            object-fit: cover;
+            object-position: center;
+        }
+        
+        .img5 {
+            width: 25px;
+            height: 25px;
+            object-fit: cover;
+            object-position: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mother1">
+
+        <div class="parent1">
+            <h4>FRONT</h4>
+            <img class="img1" src="girl-img.jpg" alt="a lady pic">
+        </div>
+
+        <div class="parent2">
+            <h4>BACK</h4>
+            <img class="img2" src="girl-img.jpg" alt="lady pic">
+            <div>
+                <img class="img3" src="girl-img.jpg" alt=""><img class="img4" src="girl-img.jpg" alt="">
+                <img class="img5" src="girl-img.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

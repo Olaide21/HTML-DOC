@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Grid-pratice</title>
+    <style>
+        .parent1 {
+            display: grid;
+            grid-template-columns: 100px 100px 200px;
+        }
+        
+        .parent2 {
+            background-color: lightcoral;
+        }
+        
+        .parent3 {
+            background-color: lightblue;
+        }
+        
+        img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            object-position: center;
+        }
+        
+        .mother {
+            display: grid;
+            grid-template-columns: 200px 180px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent1">
+        <div class="parent2"> hello world
+        </div>
+        <div class="parent3"> goodbye world</div>
+        <div class="parent2"> goodbye world</div>
+    </div>
+    <div class="mother">
+        <div>
+            <h2>peace be with me</h2>
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque commodi fugit dolor autem quidem quae?</p>
+            <button>click here</button>
+        </div>
+        <div>
+            <img src="pool-img.jpg" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
